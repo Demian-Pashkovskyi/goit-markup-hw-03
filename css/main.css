@@ -27,14 +27,37 @@ html {
   box-sizing: inherit;
 }
 
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+li {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: var(--primery-fon-color);
+  /* background-color: var(--primery-fon-color); */
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
 }
 
-.box {
-  outline: 2px solid tomato;
+.text-style {
+  background-color: ;
+}
+
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo {
@@ -103,14 +126,17 @@ ul {
 .name {
   background-color: var(--title-fon-color);
   text-decoration: none;
+  text-align: center;
+  margin-bottom: 94px;
 }
 .name-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: var(--text-color-footer);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -122,6 +148,11 @@ button {
 }
 
 .button {
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  border: 1px solid var(--accent-color);
+
   color: var(--text-color-footer);
   background-color: var(--accent-color);
   font-family: Roboto;
@@ -138,9 +169,15 @@ button {
 .button:focus {
   color: var(--accent-color);
   background-color: var(--text-color-footer);
+  border-color: var(--primery-fon-color);
 }
 
 .button-name {
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: 1px solid var(--fon-button-color);
+  display: inline-block;
+  min-width: 73px;
   color: var(--primery-text-color);
   background-color: var(--fon-button-color);
   font-family: Roboto;
@@ -155,6 +192,7 @@ button {
 .button-name:hover {
   color: var(--fon-button-color);
   background-color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /*section-title*/
@@ -182,7 +220,12 @@ button {
   top: 1061px;
 } */
 
+.section {
+  margin-bottom: 94px;
+}
+
 .section-title {
+  marg
   color: var(--primery-text-color);
   font-style: normal;
   font-weight: 700;
@@ -198,6 +241,8 @@ button {
 }
 
 .list-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -215,6 +260,12 @@ button {
 }
 
 /*Comands*/
+
+.section-padding {
+  margin-bottom: 0px;
+  background-color: var(--fon-button-color);
+}
+
 .comands-list .title {
   color: var(--primery-text-color);
   font-style: normal;
