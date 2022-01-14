@@ -254,35 +254,32 @@ button {
 
 /* navigation */
 
-.container-navigation {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 94px;
-  margin-bottom: 94px;
-}
-
-.navigation {
-  justify-content: center;
-  display: flex;
+.navigations {
+  width: 1170px;
+  text-decoration: none;
   flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 34px;
+  padding-top: 95px;
+  padding-bottom: 16px;
 }
 
 .navigation-button {
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
-  margin: 0 auto;
   text-align: center;
-  display: flex;
+  display: inline-block;
   flex-wrap: wrap;
 }
 
 .navigation-list {
-  /* display: flex; */
+  display: inline;
   flex-wrap: wrap;
   padding-top: 0px;
   padding-right: 8px;
-  padding-bottom: 8px;
 }
 
 .navigation-list:last-of-type {
@@ -528,6 +525,8 @@ button {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /*Footer*/
