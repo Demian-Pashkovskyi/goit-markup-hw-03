@@ -47,13 +47,13 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.text-style {
+/* .text-style {
   background-color: olivedrab;
 }
 
 .container {
   color: #000;
-}
+} */
 
 .container {
   width: 1200px;
@@ -493,14 +493,10 @@ button {
 }
 
 .proect-section {
-  /* box-sizing: content-box; */
   width: 370px;
   height: 404px;
   margin-bottom: 30px;
   margin-right: 30px;
-
-  /* border: 1px solid #eeeeee;
-  box-sizing: border-box; */
 }
 .proect-section:nth-child(3n) {
   margin-right: 0px;
@@ -515,6 +511,10 @@ button {
   top: 262px;
   color: var(--title-text-color);
   text-decoration: none;
+  border-top: 1px solid #eeeeee;
+  border: none;
+
+  box-sizing: border-box;
 }
 
 .proect-list {
