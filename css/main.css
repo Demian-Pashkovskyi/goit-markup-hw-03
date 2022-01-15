@@ -55,6 +55,10 @@ body {
   color: #000;
 } */
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -104,6 +108,7 @@ ul {
 .main-nav {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 /* site-nav */
@@ -170,9 +175,9 @@ ul {
   background-color: var(--title-fon-color);
   text-decoration: none;
   text-align: center;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
   height: 600px;
-  padding-top: 195px;
+  padding-top: 200px;
 }
 .name-title {
   margin-left: auto;
@@ -255,17 +260,12 @@ button {
 /* navigation */
 
 .navigations {
-  width: 1170px;
-  /* height: 60px; */
   text-decoration: none;
-  /* display: inline; */
   flex-wrap: wrap;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
   margin-bottom: 34px;
-  padding-top: 95px;
-  padding-bottom: 16px;
 }
 
 /* .container-navigation {
@@ -310,9 +310,9 @@ button {
 
 /*feature-list*/
 
-.section {
-  margin-bottom: 94px;
-  margin-top: 94px;
+.section-portfolio {
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .section-title-feature {
@@ -361,8 +361,8 @@ button {
 /*Comands*/
 
 .title-name {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  /* padding-top: 30px; */
+  padding-bottom: 10px;
 
   color: var(--primery-text-color);
   font-style: normal;
@@ -374,7 +374,7 @@ button {
 }
 
 .text-title {
-  margin-bottom: 30px;
+  /* padding-bottom: 30px; */
 
   color: var(--title-text-color);
   font-style: normal;
@@ -386,7 +386,6 @@ button {
 }
 
 .section-padding {
-  margin-bottom: 47px;
   background-color: var(--fon-button-color);
 }
 
@@ -423,20 +422,31 @@ button {
   width: 270px;
   height: 368px;
 
-  border: 1px solid var(--second-text-color);
+  /* border: 1px solid var(--second-text-color);
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.14), 0px 2px 1px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.14), 0px 2px 1px; */
+}
+
+.comand-list {
+  box-sizing: border-box;
+  border-top: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  border-top: none;
 }
 
 /*section-title Особености*/
 
 .section-work {
-  margin-bottom: 47px;
+  padding-bottom: 94px;
 }
 
 .section-title-work {
   padding-top: 0px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   color: var(--primery-text-color);
   font-style: normal;
   font-weight: 700;
@@ -518,17 +528,15 @@ button {
 }
 
 .proect-list {
-  width: 370px;
-  height: 110px;
+  padding: 20px 24px 20px 24px;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   border-top: none;
+  justify-content: space-between;
 }
 
 .title {
-  padding: 20px 24px 4px 24px;
-
-  width: 370px;
+  margin-bottom: 4px;
   color: var(--primery-text-color);
   text-decoration: none;
   font-style: normal;
@@ -536,12 +544,11 @@ button {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  display: block;
 }
 
 .title-list {
-  padding: 0px 24px 20px 24px;
-
-  width: 370px;
+  /* width: 370px; */
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
@@ -568,7 +575,6 @@ img {
   margin-top: 20px;
 
   display: block;
-  width: 231px;
   color: var(--primery-fon-color);
   font-family: Roboto;
   font-style: normal;
@@ -579,8 +585,7 @@ img {
 }
 .order-title-list {
   display: block;
-  padding-top: 9px;
-  padding-bottom: 1px;
+  margin-top: 9px;
   color: var(--second-text-color);
   text-decoration: none;
 }
